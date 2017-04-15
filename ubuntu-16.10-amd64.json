@@ -241,6 +241,7 @@
         "scripts/common/virtualbox.sh",
         "scripts/ubuntu/vmware.sh",
         "scripts/common/parallels.sh",
+        "scripts/puppet/puppet-agent.sh",
         "scripts/ubuntu/cleanup.sh",
         "scripts/common/minimize.sh"
       ],
