@@ -1,12 +1,22 @@
-# Bento
+# Makunouchi
 
 [![Build Status](http://img.shields.io/travis/chef/bento.svg)][travis]
 
-Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. We use these boxes internally at Chef Software, Inc. for testing Hosted Chef, Chef Server and our open source [cookbooks](https://supermarket.chef.io/users/chef) via [test-kitchen](http://kitchen.ci/).
+Makunouchi is a fork of Bento, a project that encapsulates 
+[Packer](https://www.packer.io/) templates for building
+[Vagrant](https://www.vagrantup.com/) base boxes. Bento uses these boxes
+internally at Chef Software, Inc. for testing Hosted Chef, Chef Server and our
+open source [cookbooks](https://supermarket.chef.io/users/chef) via
+[test-kitchen](http://kitchen.ci/).
+
+Makunouchi adds Puppet Agent to the server software collection.
 
 ## Pre-built Boxes
 
-The following boxes are built from this repository's templates for publicly available platforms and are currently hosted via Atlas in the [bento organization](https://atlas.hashicorp.com/bento/). Boxes listed that are struck out (~~box~~) are broken/unreleased for the current version.
+The following boxes are built from this repository's templates for publicly
+available platforms and are currently hosted via Atlas in the
+[bento organization](https://atlas.hashicorp.com/bento/). Boxes listed that
+are struck out (~~box~~) are broken/unreleased for the current version.
 
 ### 64 bit
 
