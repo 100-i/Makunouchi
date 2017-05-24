@@ -241,6 +241,8 @@
         "scripts/common/virtualbox.sh",
         "scripts/ubuntu/vmware.sh",
         "scripts/common/parallels.sh",
+        "scripts/puppet/puppet-collection.sh",
+        "scripts/puppet/puppet-agent.sh",
         "scripts/ubuntu/cleanup.sh",
         "scripts/common/minimize.sh"
       ],
@@ -248,7 +250,7 @@
     }
   ],
   "variables": {
-    "box_basename": "ubuntu-16.10",
+    "box_basename": "ubuntu-16.10-puppet",
     "build_timestamp": "{{isotime \"20060102150405\"}}",
     "cpus": "1",
     "disk_size": "40960",
